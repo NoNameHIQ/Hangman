@@ -175,6 +175,7 @@ int main()
     	{
     		struck(wt);
     		cout<<"\nyou lost;[\n";
+		getch();
     		return 0;
 		}
 	    wt = wordguess(word,g,letter,wt, win);
