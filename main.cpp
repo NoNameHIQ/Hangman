@@ -186,6 +186,7 @@ int main()
 			 	cout<<letter[i]<<" ";
 			}
 	    	cout<<"\nCongrats, You WON!!!!!!!!\n";
+		getch();
 	    	return 0;
 		}
     goto LOOP2;
