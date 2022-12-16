@@ -175,7 +175,7 @@ int main()
     	{
     		struck(wt);
     		cout<<"\nyou lost;[\n";
-		getch();
+		getchar();
     		return 0;
 		}
 	    wt = wordguess(word,g,letter,wt, win);
@@ -187,7 +187,7 @@ int main()
 			 	cout<<letter[i]<<" ";
 			}
 	    	cout<<"\nCongrats, You WON!!!!!!!!\n";
-		getch();
+		getchar();
 	    	return 0;
 		}
     goto LOOP2;
